@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "panel": [
+    {
+      "park": "A",
+      "month": "2026-08",
+      "published": "2026-09-05",
+      "revision": 1,
+      "energy": 10
+    },
+    {
+      "park": "A",
+      "month": "2026-09",
+      "published": "2026-10-05",
+      "revision": 1,
+      "energy": 8
+    },
+    {
+      "park": "B",
+      "month": "2026-08",
+      "published": "2026-09-05",
+      "revision": 1,
+      "energy": 20
+    },
+    {
+      "park": "B",
+      "month": "2026-09",
+      "published": "2026-10-05",
+      "revision": 1,
+      "energy": 19
+    }
+  ],
+  "adoption": {
+    "A": "2026-09",
+    "B": null
+  },
+  "analysis": {
+    "cutoff": "2026-11-01",
+    "anticipation_months": 0,
+    "target_weights": {
+      "A": 1
+    }
+  }
+}
