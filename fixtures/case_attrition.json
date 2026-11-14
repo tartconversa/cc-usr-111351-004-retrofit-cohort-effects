@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "panel": [
+    {"park": "T1", "month": "2026-07", "published": "2026-08-05", "revision": 1, "energy": 20},
+    {"park": "T1", "month": "2026-08", "published": "2026-09-05", "revision": 1, "energy": 20},
+    {"park": "T1", "month": "2026-09", "published": "2026-10-05", "revision": 1, "energy": 19},
+    {"park": "T1", "month": "2026-10", "published": "2026-11-05", "revision": 1, "energy": 19},
+    {"park": "T1", "month": "2026-11", "published": "2026-12-05", "revision": 1, "energy": 19},
+    {"park": "T1", "month": "2026-12", "published": "2027-01-05", "revision": 1, "energy": 19},
+    {"park": "T2", "month": "2026-07", "published": "2026-08-05", "revision": 1, "energy": 40},
+    {"park": "T2", "month": "2026-08", "published": "2026-09-05", "revision": 1, "energy": 40},
+    {"park": "T2", "month": "2026-09", "published": "2026-10-05", "revision": 1, "energy": 36},
+    {"park": "T2", "month": "2026-10", "published": "2026-11-05", "revision": 1, "energy": 36},
+    {"park": "C", "month": "2026-07", "published": "2026-08-05", "revision": 1, "energy": 50},
+    {"park": "C", "month": "2026-08", "published": "2026-09-05", "revision": 1, "energy": 50},
+    {"park": "C", "month": "2026-09", "published": "2026-10-05", "revision": 1, "energy": 50},
+    {"park": "C", "month": "2026-10", "published": "2026-11-05", "revision": 1, "energy": 50},
+    {"park": "C", "month": "2026-11", "published": "2026-12-05", "revision": 1, "energy": 50},
+    {"park": "C", "month": "2026-12", "published": "2027-01-05", "revision": 1, "energy": 50}
+  ],
+  "adoption": {
+    "T1": "2026-09",
+    "T2": "2026-09",
+    "C": null
+  },
+  "analysis": {
+    "cutoff": "2027-01-10",
+    "anticipation_months": 0,
+    "target_weights": {"T1": 1, "T2": 1},
+    "bootstrap": {"reps": 200, "seed": 17, "level": 0.9}
+  }
+}

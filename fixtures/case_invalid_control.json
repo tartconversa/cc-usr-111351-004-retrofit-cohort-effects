@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "panel": [
+    {"park": "A", "month": "2026-07", "published": "2026-08-05", "revision": 1, "energy": 11},
+    {"park": "A", "month": "2026-08", "published": "2026-09-05", "revision": 1, "energy": 10},
+    {"park": "A", "month": "2026-09", "published": "2026-10-05", "revision": 1, "energy": 8},
+    {"park": "A", "month": "2026-10", "published": "2026-11-05", "revision": 1, "energy": 7},
+    {"park": "B", "month": "2026-07", "published": "2026-08-05", "revision": 1, "energy": 21},
+    {"park": "B", "month": "2026-08", "published": "2026-09-05", "revision": 1, "energy": 20},
+    {"park": "B", "month": "2026-09", "published": "2026-10-05", "revision": 1, "energy": 19},
+    {"park": "B", "month": "2026-10", "published": "2026-11-05", "revision": 1, "energy": 14},
+    {"park": "C", "month": "2026-07", "published": "2026-08-05", "revision": 1, "energy": 30},
+    {"park": "C", "month": "2026-08", "published": "2026-09-05", "revision": 1, "energy": 30},
+    {"park": "C", "month": "2026-09", "published": "2026-10-05", "revision": 1, "energy": 29},
+    {"park": "C", "month": "2026-10", "published": "2026-11-05", "revision": 1, "energy": 29}
+  ],
+  "parks": {
+    "A": {"size": 12.0},
+    "B": {"size": 20.0},
+    "C": {"size": 29.0}
+  },
+  "adoption": {
+    "A": "2026-09",
+    "B": "2026-10",
+    "C": null
+  },
+  "analysis": {
+    "cutoff": "2026-11-10",
+    "anticipation_months": 1,
+    "target_weights": {"A": 1, "B": 1},
+    "bootstrap": {"reps": 200, "seed": 7, "level": 0.9}
+  }
+}

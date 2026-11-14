@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "panel": [
+    {"park": "P1", "month": "2026-06", "published": "2026-07-05", "revision": 1, "energy": 50},
+    {"park": "P1", "month": "2026-07", "published": "2026-08-05", "revision": 1, "energy": 50},
+    {"park": "P1", "month": "2026-08", "published": "2026-09-05", "revision": 1, "energy": 45},
+    {"park": "P1", "month": "2026-09", "published": "2026-10-05", "revision": 1, "energy": 45},
+    {"park": "P1", "month": "2026-10", "published": "2026-11-05", "revision": 1, "energy": 45},
+    {"park": "P1", "month": "2026-11", "published": "2026-12-05", "revision": 1, "energy": 45},
+    {"park": "P1", "month": "2026-12", "published": "2027-01-05", "revision": 1, "energy": 45},
+    {"park": "P2", "month": "2026-06", "published": "2026-07-05", "revision": 1, "energy": 40},
+    {"park": "P2", "month": "2026-07", "published": "2026-08-05", "revision": 1, "energy": 40},
+    {"park": "P2", "month": "2026-08", "published": "2026-09-05", "revision": 1, "energy": 40},
+    {"park": "P2", "month": "2026-09", "published": "2026-10-05", "revision": 1, "energy": 40},
+    {"park": "P2", "month": "2026-10", "published": "2026-11-05", "revision": 1, "energy": 36},
+    {"park": "P2", "month": "2026-11", "published": "2026-12-05", "revision": 1, "energy": 36},
+    {"park": "P2", "month": "2026-12", "published": "2027-01-05", "revision": 1, "energy": 36},
+    {"park": "P3", "month": "2026-06", "published": "2026-07-05", "revision": 1, "energy": 60},
+    {"park": "P3", "month": "2026-07", "published": "2026-08-05", "revision": 1, "energy": 60},
+    {"park": "P3", "month": "2026-08", "published": "2026-09-05", "revision": 1, "energy": 60},
+    {"park": "P3", "month": "2026-09", "published": "2026-10-05", "revision": 1, "energy": 60},
+    {"park": "P3", "month": "2026-10", "published": "2026-11-05", "revision": 1, "energy": 60},
+    {"park": "P3", "month": "2026-11", "published": "2026-12-05", "revision": 1, "energy": 60},
+    {"park": "P3", "month": "2026-12", "published": "2027-01-05", "revision": 1, "energy": 55}
+  ],
+  "adoption": {
+    "P1": "2026-08",
+    "P2": "2026-10",
+    "P3": "2026-12"
+  },
+  "analysis": {
+    "cutoff": "2027-01-10",
+    "anticipation_months": 0,
+    "target_weights": {"P1": 1, "P2": 1, "P3": 1},
+    "bootstrap": {"reps": 200, "seed": 11, "level": 0.9}
+  }
+}
